@@ -19,7 +19,8 @@ if save_output:
 
 # Class names from your data.yaml
 class_names = model.names
-pressing_classes = ["Q","W","E","R","T","Y","U","I","O","P","A","S","D","F","G","H","J","K","L","Z","X","C","V","B","N","M",",",".","/","'","]","[","\\" ,"=","-","1","2","3","4","5","6","7","8","9","0","*","`","CTRL","TAB","ESC","CAPS-LOCK", "SHIFT","FN","ALT","SPACEBAR",";","UP","DOWN","LEFT","RIGHT","ENTER","BACKSPACE","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","DELETE","INSERT","PRT SC","NUM LOCK","POWER","fingers"] 
+pressing_classes =['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'accent', 'ae', 'alt-left', 'altgr-right', 'b', 'c', 'caret', 'comma', 'd', 'del', 'e', 'enter', 'f', 'g', 'h', 'hash', 'i', 'j', 'k', 'keyboard', 'l', 'less', 'm', 'minus', 'n', 'o', 'oe', 'p', 'plus', 'point', 'q', 'r', 's', 'shift-left', 'shift-lock', 'shift-right', 'space', 'ss', 'strg-left', 'strg-right', 't', 'tab', 'u', 'ue', 'v', 'w', 'x', 'y', 'z']
+
 
 def compute_iou(boxA, boxB):
     xA = max(boxA[0], boxB[0])
